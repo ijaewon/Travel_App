@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:travel/constants.dart';
 import 'package:travel/size_config.dart';
 
-class SeletionTitle extends StatelessWidget {
-  const SeletionTitle({
+class SectionTitle extends StatelessWidget {
+  const SectionTitle({
     Key key,
     @required this.title,
     @required this.press,

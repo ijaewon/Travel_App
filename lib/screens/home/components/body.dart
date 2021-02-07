@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:travel/screens/home/components/home_header.dart';
 import 'package:travel/screens/home/components/popular_places.dart';
+import 'package:travel/screens/home/components/top_travelers.dart';
 import 'package:travel/size_config.dart';
 
 class Body extends StatelessWidget {
@@ -13,7 +14,10 @@ class Body extends StatelessWidget {
           HomeHeader(),
           VerticalSpacing(),
           VerticalSpacing(),
-          PopularPlaces()
+          PopularPlaces(),
+          VerticalSpacing(),
+          TopTravelers(),
+          VerticalSpacing()
         ],
       ),
     );
